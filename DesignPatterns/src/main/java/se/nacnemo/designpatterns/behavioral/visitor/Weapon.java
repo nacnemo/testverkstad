@@ -6,6 +6,7 @@ public class Weapon implements Element {
         System.out.println("BANG! in trigger method");
     }
 
+    @Override
     public void accept(Visitor visitor) {
         visitor.visit(this);
     }

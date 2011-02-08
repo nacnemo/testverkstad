@@ -3,12 +3,12 @@ package se.nacnemo.designpatterns.behavioral.state;
 public class StateDemo {
 
     public static void main(String[] args) {
-        GameContext sc = new GameContext();
-        sc.runEngine();
+        GameContext context = new GameContext();
+        context.runEngine();
 
-        sc.runEngine();
-        sc.runEngine();
-        sc.runEngine();
-        sc.runEngine();
+        context.runEngine();
+        context.runEngine();
+        context.runEngine();
+        context.runEngine();
     }
 }

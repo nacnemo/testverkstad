@@ -6,16 +6,16 @@ public class RuleMediator {
     FightRule fightRule;
     TalkRule talkRule;
 
-    void selectEscapeRule(EscapeRule fromRule) {
-        this.escapeRule = fromRule;
+    void selectEscapeRule(EscapeRule escapeRule) {
+        this.escapeRule = escapeRule;
     }
 
-    void selectFightRule(FightRule toRule) {
-        this.fightRule = toRule;
+    void selectFightRule(FightRule fightRule) {
+        this.fightRule = fightRule;
     }
 
-    void selectTalkRule(TalkRule ccRule) {
-        this.talkRule = ccRule;
+    void selectTalkRule(TalkRule talkRule) {
+        this.talkRule = talkRule;
     }
 
     void createEscapeRule() {

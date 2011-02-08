@@ -7,6 +7,7 @@ package se.nacnemo.designpatterns.behavioral.strategy.behavior.speak;
  * Time: 4:45 PM
  * To change this template use File | Settings | File Templates.
  */
-public interface SpeakBehavior{
-	void speak();
+public interface SpeakBehavior {
+
+    void speak();
 }

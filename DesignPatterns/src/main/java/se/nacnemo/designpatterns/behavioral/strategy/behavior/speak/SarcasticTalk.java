@@ -7,10 +7,10 @@ package se.nacnemo.designpatterns.behavioral.strategy.behavior.speak;
  * Time: 4:49 PM
  * To change this template use File | Settings | File Templates.
  */
-public class SarcasticTalk implements SpeakBehavior{
+public class SarcasticTalk implements SpeakBehavior {
 
-
-	public void speak(){
-		System.out.println("My mom hits harder than that!");
-	}
+    @Override
+    public void speak() {
+        System.out.println("My mom hits harder than that!");
+    }
 }

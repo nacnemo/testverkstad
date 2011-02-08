@@ -7,10 +7,11 @@ package se.nacnemo.designpatterns.behavioral.strategy.behavior.fight;
  * Time: 4:35 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Kick implements FightBehavior{
+public class Kick implements FightBehavior {
 
-	public void fight(){
-		System.out.println("Several round kicks and a mavashi geri!"+
-				  "\n Ouch! that's gotto hurt ;)");
-	}
+    @Override
+    public void fight() {
+        System.out.println("Several round kicks and a mavashi geri!"
+                + "\n Ouch! that's gotto hurt ;)");
+    }
 }
